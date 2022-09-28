@@ -4,7 +4,7 @@ import rpw.RoboProLib.*;
 
 public class EvenDigitNumSwap {
   public void run() {
-    system.print("\n ****************** EvenDigitNumSwap Output: ****************** \n");
+    system.print("\n ****************>> EvenDigitNumSwap Output: <<**************** \n");
     int num, temp, x = 0;
     String n = "";
 
@@ -20,14 +20,14 @@ public class EvenDigitNumSwap {
       }
 
       system.print("\n" + num
-          + " is an even digit number.\nNew number formed after swaping consecutive pair of digits is: " + n);
+          + " is an even digit number.\nThe new number formed after swaping consecutive pair of digits is: " + n);
     } else {
       system.print(num + " is not an even digit number.");
     }
   }
 
   public void code() {
-    String program = "\n ******************* EvenDigitNumSwap Code: ******************* \n\n" +
+    String program = "\n *****************>> EvenDigitNumSwap Code: <<***************** \n\n" +
         "int num, temp, x = 0;\n" +
         "String n = \"\";\n" +
         "\n" +
