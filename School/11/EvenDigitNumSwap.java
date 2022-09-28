@@ -1,4 +1,4 @@
-package School11;
+package School.11;
 
 import rpw.RoboProLib.*;
 

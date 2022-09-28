@@ -1,5 +1,5 @@
 import rpw.RoboProLib.*;
-import School11.*;
+import School.11.*;
 
 public class Menu {
   public void run() {
