@@ -1,4 +1,5 @@
 import rpw.RoboProLib.*;
+import School11.*;
 
 public class Menu {
   public void run() {
@@ -16,7 +17,7 @@ public class Menu {
           break;
       }
 
-      repeat = system.inputBool("Do you want to repeat the program: ");
+      repeat = system.inputBool("\n ************************************************************** \n\nDo you want to repeat the program: ");
     } while (repeat);
   }
 }

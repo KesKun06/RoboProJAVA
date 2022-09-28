@@ -1,8 +1,10 @@
+package School11;
+
 import rpw.RoboProLib.*;
 
 public class EvenDigitNumSwap {
   public void run() {
-    system.print("\n ************************************************************** \n");
+    system.print("\n ****************** EvenDigitNumSwap Output: ****************** \n");
     int num, temp, x = 0;
     String n = "";
 
@@ -25,7 +27,7 @@ public class EvenDigitNumSwap {
   }
 
   public void code() {
-    String program = "\n ************************************************************** \n\n" +
+    String program = "\n ******************* EvenDigitNumSwap Code: ******************* \n\n" +
         "int num, temp, x = 0;\n" +
         "String n = \"\";\n" +
         "\n" +
